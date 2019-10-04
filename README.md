@@ -1,6 +1,6 @@
 # Easy Manage Task
 
-[Demo]() - Deployed on Heroku
+[Demo]( https://eco-easy-manage-tasks.herokuapp.com/ ) - Deployed on Heroku
 
 ### Run locally
 
