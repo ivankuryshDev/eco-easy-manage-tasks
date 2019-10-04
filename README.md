@@ -21,4 +21,3 @@ User can:
 * Mark todos as completed or incompleted
 * Drag and drop todos to change their index
 
-
