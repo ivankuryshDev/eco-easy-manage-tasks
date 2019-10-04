@@ -22,6 +22,3 @@ User can:
 * Drag and drop todos to change their index
 
 
-### `npm start`
-
-
