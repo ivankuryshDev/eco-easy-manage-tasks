@@ -41,6 +41,7 @@
     "react-beautiful-dnd": "^8.0.3",
     "react-dev-utils": "^5.0.1",
     "react-dom": "^16.4.1",
+    "react-live-clock": "^3.1.0",
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
@@ -107,7 +108,9 @@
       "react-app"
     ],
     "rules": {
-      "jsx-a11y/href-no-hash": [0]
+      "jsx-a11y/href-no-hash": [
+        0
+      ]
     }
   },
   "devDependencies": {
