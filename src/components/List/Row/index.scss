@@ -1,0 +1,60 @@
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 20px 0;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    background: white;
+    .button {
+        border-radius: 0%;
+        color: white;
+    }
+    .button-check {
+        display: flex;
+        height: 30px;
+        width: 30px;
+        border: 1px solid #e1e1e1;
+        margin-right: 15px;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px 5px #000000;
+        &--complete {
+            background: #56bd19;
+            border: 1px solid #56bd19;
+        }
+        &--incomplete {
+            background: white;
+        }
+    }
+    span {
+        flex: 1;
+        text-align: justify;
+        word-break: break-all;
+    }
+}
+
+.settings {
+    display: flex;
+    button, a {
+        display: flex;
+        height: 31px;
+        width: 31px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+        border: none;
+        font-size: 12px;
+    }
+    .button-edit {
+        background: #ff9800;
+        box-shadow: 3px 3px 5px #000000;
+    }
+    .button-remove {
+        background: #f44336;
+        box-shadow: 3px 3px 5px #000000;
+    }
+}

@@ -1,0 +1,60 @@
+.app {
+    display: flex;
+    height: calc(100vh - 100px);
+    width: calc(100vw - 100px);
+    flex-direction: column;
+    align-items: center;
+    background: #bffca8;
+    padding: 50px;
+
+    @media only screen and (max-width: 961px) {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+    }
+}
+
+.app-box {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    max-width: 700px;
+    background: white;
+
+    @media only screen and (max-width: 961px) {
+        max-width: inherit;
+    }
+
+    .app-header {
+        display: flex;
+        height: 150px;
+        width: calc(100% - 60px);
+        align-items: center;
+        justify-content: start;
+        padding: 30px;
+        color: white;
+        background: url('../../images/bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 1px 7px #000000;
+        .time {
+            display: block;
+            font-size: 76px;
+            font-family: LatoHairline;
+            line-height: 65px;
+            font-weight: bold;
+            text-shadow: 9px 4px 4px #000000;
+        }
+        .day-month {
+            margin-left: 5px;
+            display: block;
+            font-size: 25px;
+            font-family: LatoHairline;
+            line-height: 30px;font-weight: bold;
+            text-shadow: 5px 4px 3px #000000;
+        }
+    }
+}
