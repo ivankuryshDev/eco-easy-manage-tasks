@@ -9,7 +9,7 @@
 
 ### Description
 
-This project uses React.js as a UI library and Redux for state management. Has Clock.
+This project uses React.js as a UI library and Redux for state management. It has a built-in clock.
 
 Data is saved in localStorage and Redux state.
 
